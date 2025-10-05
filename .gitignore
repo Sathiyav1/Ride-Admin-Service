@@ -1,0 +1,58 @@
+# Generic
+*.log
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Maven
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Do NOT ignore the Maven wrapper script and jar (they should be committed)
+# - keep mvnw, mvnw.cmd and .mvn/wrapper/maven-wrapper.jar in source control
+
+# Exclude downloaded/expanded Maven distributions created by the local wrapper
+.mvn/wrapper/apache-maven-*
+
+# Local maven repository (if accidentally checked in)
+.m2/
+
+# IDEs and editors
+/.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Java
+*.class
+# It's safe to ignore jars in target but keep any source-managed jars tracked
+target/*.jar
+
+# Logs
+logs/
+
+# OS generated files
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Keystore / sensitive files
+*.jks
+*.keystore
+env.properties
+.env
+
+# Node (if used in project)
+node_modules/
+
+# Misc
+coverage/
+reports/
