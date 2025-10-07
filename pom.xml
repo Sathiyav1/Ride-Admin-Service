@@ -46,6 +46,12 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
+        <!-- Spring Boot Actuator for health and metrics -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- Jakarta Persistence API (provides jakarta.persistence.*) -->
         <dependency>
             <groupId>jakarta.persistence</groupId>
